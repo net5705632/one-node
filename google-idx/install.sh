@@ -27,5 +27,5 @@ $PWD/startup.sh
 
 # 6. print node info
 echo '---------------------------------------------------------------'
-echo "vless://$UUID@example.domain.com:443?encryption=none&security=tls&type=tcp#idx-tcp"
+echo "vless://$UUID@$DOMAIN:443?encryption=none&security=tls&type=http&host=$DOMAIN&path=$PATH#idx-h2"
 echo '---------------------------------------------------------------'
